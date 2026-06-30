@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Space+Grotesk:wght@700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --deep: #0fbac6;
+  --sage: #c5a880;
+  --mist: #eac87d;
+  --paper: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto;
+  background: var(--deep);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 12% 10%, rgba(245, 197, 66, .13), transparent 28rem),
+    radial-gradient(circle at 88% 14%, rgba(232, 233, 228, .10), transparent 26rem),
+    var(--deep);
+  color: var(--paper);
+  font-family: Inter, system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--sage);
+  color: var(--deep);
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+  }
+}
+
+
+/* Civic Infrastructure Intelligence texture layer */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    linear-gradient(rgba(201,206,214,.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(201,206,214,.035) 1px, transparent 1px);
+  background-size: 72px 72px;
+  mask-image: radial-gradient(circle at 50% 20%, black, transparent 72%);
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: .18;
+  background-image:
+    radial-gradient(circle at 20% 30%, rgba(245,197,66,.15), transparent 18rem),
+    linear-gradient(135deg, transparent 0 46%, rgba(201,206,214,.08) 46% 47%, transparent 47% 100%);
+}
+
+
+/* V8 visible engineering motion helpers */
+@keyframes dash-draw {
+  from { stroke-dashoffset: 900; }
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes node-pulse {
+  0%, 100% { transform: scale(1); opacity: .65; }
+  50% { transform: scale(1.35); opacity: 1; }
+}
+
+@keyframes water-flow {
+  from { stroke-dashoffset: 460; }
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes hydro-draw {
+  from { stroke-dashoffset: 620; }
+  to { stroke-dashoffset: 0; }
+}
+
+.engineering-card {
+  background:
+    linear-gradient(135deg, rgba(255,255,255,.085), rgba(255,255,255,.035)),
+    linear-gradient(rgba(201,206,214,.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(201,206,214,.045) 1px, transparent 1px);
+  background-size: auto, 34px 34px, 34px 34px;
+}

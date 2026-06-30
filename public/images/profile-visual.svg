@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="Premium animated-style engineering portfolio visual">
+  <defs>
+    <linearGradient id="screen" x1="80" y1="80" x2="820" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#30A9DB"/>
+      <stop offset=".48" stop-color="#0B6570"/>
+      <stop offset="1" stop-color="#E38335"/>
+    </linearGradient>
+    <linearGradient id="cream" x1="120" y1="110" x2="790" y2="850" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8EE"/>
+      <stop offset="1" stop-color="#D9E0E4"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="200" x2="740" y1="150" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB065"/>
+      <stop offset="1" stop-color="#C42A18"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="38" stdDeviation="30" flood-color="#000" flood-opacity=".34"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="28"/></filter>
+  </defs>
+  <rect width="900" height="900" fill="none"/>
+  <circle cx="244" cy="214" r="180" fill="#30A9DB" opacity=".24" filter="url(#soft)"/>
+  <circle cx="710" cy="620" r="220" fill="#E38335" opacity=".18" filter="url(#soft)"/>
+  <g transform="translate(80 172) rotate(-3 370 290)" filter="url(#shadow)">
+    <rect x="0" y="0" width="740" height="470" rx="48" fill="#FFF8EE"/>
+    <rect x="20" y="38" width="700" height="396" rx="31" fill="url(#screen)"/>
+    <rect x="330" y="11" width="80" height="12" rx="6" fill="#0A1014" opacity=".9"/>
+    <text x="46" y="90" font-family="Space Grotesk, Arial, sans-serif" font-size="24" font-weight="800" fill="#FFF8EE" opacity=".94">ABHAYA SIMKHADA</text>
+    <text x="46" y="160" font-family="Space Grotesk, Arial, sans-serif" font-size="76" font-weight="900" fill="#FFF8EE" letter-spacing="-5">CIVIL</text>
+    <text x="46" y="232" font-family="Space Grotesk, Arial, sans-serif" font-size="76" font-weight="900" fill="#FFF8EE" letter-spacing="-5">ENGINEERING</text>
+    <text x="49" y="276" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFF8EE" opacity=".8">GIS · Hydrology · Transport Planning</text>
+    <g opacity=".35" stroke="#FFF8EE" fill="none">
+      <path d="M72 338 C182 282 271 397 381 322 S571 276 662 356" stroke-width="5"/>
+      <path d="M76 374h102m30 0h103m30 0h103m30 0h146" stroke-width="2"/>
+      <path d="M90 414h520" stroke-width="2"/>
+    </g>
+    <g transform="translate(458 110)">
+      <rect x="0" y="0" width="180" height="248" rx="28" fill="#FFF8EE" opacity=".95"/>
+      <rect x="20" y="20" width="140" height="46" rx="16" fill="#071014"/>
+      <rect x="28" y="82" width="52" height="52" rx="15" fill="#30A9DB"/>
+      <rect x="96" y="82" width="52" height="52" rx="15" fill="#FFF6ED"/>
+      <rect x="28" y="150" width="52" height="52" rx="15" fill="#E38335"/>
+      <rect x="96" y="150" width="52" height="52" rx="15" fill="#C42A18"/>
+      <circle cx="91" cy="43" r="17" fill="#E38335"/>
+    </g>
+  </g>
+  <g transform="translate(116 705)">
+    <rect width="98" height="58" rx="18" fill="#30A9DB"/>
+    <rect x="118" width="98" height="58" rx="18" fill="#0B6570"/>
+    <rect x="236" width="98" height="58" rx="18" fill="#E38335"/>
+    <rect x="354" width="98" height="58" rx="18" fill="#C42A18"/>
+    <rect x="472" width="98" height="58" rx="18" fill="#FFF6ED"/>
+  </g>
+  <g fill="none" stroke="#FFF6ED" stroke-opacity=".52" stroke-width="3">
+    <path d="M148 120h130M666 106h90M708 748h80M96 674h78"/>
+    <path d="M163 120l26-24 26 24M708 748l30-28 30 28"/>
+  </g>
+</svg>

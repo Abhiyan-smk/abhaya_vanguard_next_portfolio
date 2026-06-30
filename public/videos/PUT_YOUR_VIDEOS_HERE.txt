@@ -1,0 +1,14 @@
+Rename and place your MP4 files here:
+
+hero-gis-map.mp4
+stormwater-flow.mp4
+geotech-soil-section.mp4
+infrastructure-dashboard.mp4
+
+Recommended export:
+- MP4
+- 1920x1080 or 1280x720
+- 6–10 seconds
+- muted loop
+- compressed under 8–12 MB each if possible
+- no readable text, no logos
