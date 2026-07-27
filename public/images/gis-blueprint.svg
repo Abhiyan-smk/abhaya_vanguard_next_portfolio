@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="GIS blueprint illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="900" y1="0" y2="620" gradientUnits="userSpaceOnUse"><stop stop-color="#0B1A2D"/><stop offset="1" stop-color="#06101D"/></linearGradient>
+    <linearGradient id="line" x1="80" x2="820" y1="80" y2="540" gradientUnits="userSpaceOnUse"><stop stop-color="#4DE2FF"/><stop offset=".55" stop-color="#8CFFD2"/><stop offset="1" stop-color="#F7C66A"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="900" height="620" rx="34" fill="url(#bg)"/>
+  <g opacity=".20" stroke="#fff"><path d="M0 80h900M0 160h900M0 240h900M0 320h900M0 400h900M0 480h900M0 560h900M80 0v620M160 0v620M240 0v620M320 0v620M400 0v620M480 0v620M560 0v620M640 0v620M720 0v620M800 0v620"/></g>
+  <g fill="none" stroke="url(#line)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <path d="M98 476C186 405 242 376 323 385c77 8 102 50 176 32 88-22 100-107 190-116 45-5 82 11 121 38"/>
+    <path d="M128 180c46-31 94-37 146-20 78 26 136 9 174-52 38-61 102-67 168-17 47 36 89 45 151 22" opacity=".82"/>
+    <path d="M160 540 774 112" opacity=".32"/>
+  </g>
+  <g fill="#06101D" stroke="#4DE2FF" stroke-width="4">
+    <circle cx="128" cy="455" r="15"/><circle cx="323" cy="385" r="15"/><circle cx="499" cy="417" r="15"/><circle cx="689" cy="301" r="15"/><circle cx="810" cy="339" r="15"/>
+  </g>
+  <g font-family="Inter,Arial" font-size="22" font-weight="800" fill="#EAF7FF">
+    <text x="55" y="82">ACTIVE TRANSPORT / GIS PRIORITY MODEL</text>
+    <text x="655" y="564" fill="#8CFFD2">DATA → SCORE → MAP → DECISION</text>
+  </g>
+  <g transform="translate(64 104)" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.18)">
+    <rect width="230" height="96" rx="20"/><text x="22" y="40" fill="#4DE2FF" font-family="Inter,Arial" font-size="18" font-weight="900">PROXIMITY LAYERS</text><text x="22" y="70" fill="#AFC4D8" font-family="Inter,Arial" font-size="16">Schools · shops · bus stops</text>
+  </g>
+</svg>
